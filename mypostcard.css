@@ -1,0 +1,43 @@
+.card_container{
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.title_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_tarta{
+    width: 100px;
+    height: 100px;
+}
+
+.content_container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send_button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer_container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.send_button:hover{
+    background-color: rgb(184, 2, 184);
+}
